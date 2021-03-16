@@ -1,0 +1,98 @@
+header {
+    width: 100%;
+    height: 80px;
+    background: burlywood;
+    display: flex; justify-content: center; align-content: center;
+}
+
+header h3 {
+    align-self: center;
+}
+
+ul {
+    position: relative;
+    list-style: none;
+    margin-left: 30px;
+}
+/* 
+ul::before {
+    content: '+';
+    position: absolute;
+    left: -10px;
+} */
+li {
+    border: 1px solid green;
+    padding: 4px 10px;
+    background: #7c9eb2;
+}
+li > i:first-of-type {
+    background: lightgreen;
+    padding: 1px 4px;
+    margin-right: 5px;
+}
+.fa-plus {
+    color: green;
+}
+.fa-plus:hover {
+    cursor: pointer;
+}
+/* li span i:nth-of-type(2) {
+    color: blue;
+    margin-left: 10px;
+} */
+.fa-trash-alt {
+    color: red;
+    margin-left: 10px;
+}
+.fa-trash-alt:hover {
+    cursor: pointer;
+}
+.tree {
+    margin: 2rem auto; padding: 2rem;
+    width: 80%; height: auto;
+    background: burlywood;
+    display: flex; justify-content: center; align-items: center;
+    flex-direction: row;
+}
+
+
+
+form {
+	max-width: 30em;
+	margin: 4em auto;
+	position: relative;
+    background: #f4f4f4;
+    padding: 2em 3em;
+    overflow: hidden;
+    text-align: center;
+}
+form h1 {
+    font-family: "Raleway";
+    color:#F97300;
+    margin-bottom: 1rem;
+}
+form .input-group-prepend {
+    display: flex; justify-content: center;
+}
+form input[type=text]::placeholder {
+   font-family: "Raleway";
+   color:#666; 
+}
+form .form-control {
+	height: 2em;
+    font-family: "Raleway";
+    border: 1px solid#F97300;
+    padding: 15px; margin-right: 5px;
+}
+form button {
+    background: #F97300;
+    color: beige;
+    font-weight: 500;
+    border: none; padding: 5px;
+}
+form button:hover {
+    cursor: pointer;
+}
+.clone {
+    display: block;
+}
